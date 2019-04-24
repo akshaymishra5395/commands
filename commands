@@ -13,3 +13,18 @@ git push origin master
 
 git clone [reponame]  | filepath
 git clone origin master
+
+
+branchings
+git branch
+
+git branch ebay1
+git branch ebay2
+
+git checkout ebay2
+(git add files u want to add and commit)
+git checkout master
+
+git merge ebay2
+
+
