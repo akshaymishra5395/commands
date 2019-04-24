@@ -1,0 +1,15 @@
+git config --global user.email 'akshaymishra5395@gmail.com'
+git config --global user.name 'akshay'
+
+
+git init
+git status 
+git add [filename] | -A
+git commit -m 'msg'
+git remote add orgin [reponame]
+git push origin master
+
+
+
+git clone [reponame]  | filepath
+git clone origin master
