@@ -27,6 +27,7 @@ git checkout master
 
 git merge ebay2
 
+django commands
 
 1. virtualenv venv -p /usr/bin/pyhton3 
 2. source venv/bin/activate
