@@ -30,9 +30,9 @@ git merge ebay2
 django commands
 
 1. virtualenv venv -p /usr/bin/python3 
-	Windows(virtualenv venv)
+	Windows(virtualenv venv) or use (python -m venv officeenv) instead of venv as path
 2. source venv/bin/activate       
-	Windows on cmd (.\venv\Scripts\activate.bat )
+	Windows on cmd (.\venv\Scripts\activate.bat ) 
 3. pip install django==2.0.7  ---(pip3 ,python3)
 4. pip install -r requirements.txt
 
