@@ -1,1 +1,6 @@
 git reset HEAD -- <file> |<directory>                      remove file and directory from sttaging 
+git checkout -f                                            remove modified chaneges for all files
+
+git log -p -1             ----diff in files of previous one commit 
+git diff                  ---diff with modified and staged file
+git diff --staged         ---diff with modified and previous state commited code
