@@ -1,0 +1,15 @@
+sudo -u postgres psql
+
+CREATE DATABASE mx_thirdwave_v3;
+CREATE USER manprax WITH PASSWORD 'manprax@123';
+GRANT ALL PRIVILEGES ON DATABASE mx_thirdwave_v3 TO manprax;
+
+
+\dt
+\q
+
+select * from devices_device;
+delete from devices_device where year='2020';
+
+
+
