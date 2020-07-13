@@ -5,11 +5,15 @@ CREATE USER manprax WITH PASSWORD 'manprax@123';
 GRANT ALL PRIVILEGES ON DATABASE mx_thirdwave_v3 TO manprax;
 
 
-\dt
+\l     ;show databases 
+\c database_name     ;connect to database
+\dt table_name
+\d table_name     :desccribe table
 \q
 
 select * from devices_device;
 delete from devices_device where year='2020';
+ALTER TABLE mx_thirdwave_v3 DROP COLUMN client_live_parameters;
 
 
 
